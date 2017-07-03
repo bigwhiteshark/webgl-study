@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+
+#my-gui-container {
+  float: left;
+  margin-left: 2px;
+}
+
+#tbl-matrix-0, #tbl-matrix-1, #tbl-matrix-2, #tbl-matrix-3, #tbl-matrix-4, #tbl-matrix-5 {
+  border: 1px solid #000;
+  font-size: 12px;
+  float: left;
+  margin-left: 5px;
+}
+
+.tbl-matrix td {
+  width: 34px;
+  height: 30px;
+  text-align: center;
+}
+
+.tbl-matrix-m0, .tbl-matrix-m1, .tbl-matrix-m2 {
+  color: #9bbb59;
+}
+
+.tbl-matrix-m4, .tbl-matrix-m5, .tbl-matrix-m6 {
+  color: #f0720a;
+}
+
+.tbl-matrix-m8, .tbl-matrix-m9, .tbl-matrix-m10 {
+  color: #c0504d;
+}
+
+.tbl-matrix-m12, .tbl-matrix-m13, .tbl-matrix-m14 {
+  font-weight: bold
+}
